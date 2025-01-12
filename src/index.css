@@ -9,3 +9,9 @@
     --hero-height: calc(100svh - var(--header-height));
   }
 }
+
+/* .myMinusMargin {
+  margin-top: calc((-12.5vh - (25vw * (16 / 9) / 320)));
+  margin-top: calc((-100vh - (60vw / 320)));
+  margin-top: calc((-100vh - (60 * (9 / 16))) / 2);
+} */

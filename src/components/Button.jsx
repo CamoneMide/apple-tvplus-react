@@ -12,7 +12,7 @@ const Button = ({ children, className, size = "medium" }) => {
     <>
       <button
         className={twMerge(
-          "bg-white text-textBlack rounded-full ",
+          "bg-white text-textBlack rounded-full",
           sizeClassNames[size],
           className
         )}
