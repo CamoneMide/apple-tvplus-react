@@ -23,8 +23,8 @@ const Usps = () => {
         <FadeIn>
           <p>Share a single subscription with up to five people.</p>
         </FadeIn>
-        <FadeIn>
-          <div className="mt-[150px] grid grid-cols-1 md:grid-cols-3 gap-[30px] mb-[175px]">
+        <div className="mt-[150px] grid grid-cols-1 md:grid-cols-3 gap-[30px] mb-[175px]">
+          <FadeIn>
             <div className="text-[#f5f5f7]">
               <h2 className="text-3xl font-[600]">Buy an Apple device</h2>
               <h3 className="text-4xl mt-[11px] md:mt-[16px] font-[700]">
@@ -38,7 +38,8 @@ const Usps = () => {
                 Check eligibility
               </button>
             </div>
-
+          </FadeIn>
+          <FadeIn>
             <div className="text-[#f5f5f7]">
               <h2 className="text-3xl font-[600]">Free 7-day trial</h2>
               <h3 className="text-4xl mt-[11px] md:mt-[16px] font-[700]">
@@ -52,7 +53,8 @@ const Usps = () => {
                 Try it free
               </button>
             </div>
-
+          </FadeIn>
+          <FadeIn>
             <div className="text-[#f5f5f7]">
               <h2 className="text-3xl font-[600]">Free 1‑month trial</h2>
               <h3 className="text-4xl mt-[11px] md:mt-[16px] font-[700]">
@@ -69,9 +71,8 @@ const Usps = () => {
                 Try Apple one free
               </button>
             </div>
-          </div>
-        </FadeIn>
-        {/* <p className="h-[25vh]"></p> */}
+          </FadeIn>
+        </div>
       </Container>
     </>
   );
