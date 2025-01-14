@@ -1,7 +1,7 @@
 import React from "react";
 import Lenis from "lenis";
 import { Container, Header } from "./components";
-import { Content, Hero, Usps, VideoCarousel } from "./sections";
+import { Content, Hero, Info, Usps, VideoCarousel } from "./sections";
 
 function App() {
   React.useEffect(() => {
@@ -29,6 +29,7 @@ function App() {
         </div>
         <VideoCarousel />
         <Content />
+        <Info />
       </main>
     </>
   );

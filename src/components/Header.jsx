@@ -14,15 +14,19 @@ const Header = () => {
             <i className="bx bxl-apple"></i>
             <span className="sr-only">Back to HomePage</span>
           </a>
-          {navLinks.map((navLink) => (
-            <a
-              href="/"
-              key={navLink.id}
-              className="min-h-[--header-row-height] items-center px-[8px] text-xs font-[400] text-[rgba(255,255,255,0.8)] hidden md:flex"
-            >
-              {navLink.text}
-            </a>
-          ))}
+          {navLinks.map((navLink) => {
+            return (
+              <a
+                href="/"
+                key={navLink.id}
+                id={navLink.id}
+                className="min-h-[--header-row-height] items-center px-[8px] text-xs font-[400] text-[rgba(255,255,255,0.8)] hidden md:flex testNavLinks"
+              >
+                {navLink.text}
+              </a>
+            );
+          })}
+
           <div className="flex items-center min-h-[--header-row-height] justify-between">
             <a
               href="/"
