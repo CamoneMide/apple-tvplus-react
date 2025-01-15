@@ -9,15 +9,16 @@ export default {
         textBlack: "#1D1D1F",
         white: "#FFF",
       },
-      fontFamily: {
-        sans: [
-          "SF Pro Display",
-          "Helvetica Neue",
-          "Helvetica",
-          "Arial",
-          "sans-serif",
-        ],
-      },
+      // fontFamily: {
+      //   sans: [
+      //     "SF Pro Display",
+      //     "Helvetica Neue",
+      //     "Helvetica",
+      //     "Arial",
+      //     "sans-serif",
+      //   ],
+      //   sans: ["Roboto", "serif"],
+      // },
       fontSize: {
         xs: "0.75rem",
         sm: "0.875rem",

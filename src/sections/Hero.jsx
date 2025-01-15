@@ -45,8 +45,13 @@ const Hero = () => {
             <Button size="large" className="mb-[71px]">
               Stream now
             </Button>
-            <p className="font-semibold">
-              Watch on the <i className="bx bx-tv"></i> app.
+            <p className="flex items-center font-semibold text-[19px]">
+              Watch on the{" "}
+              <span className="text-[#f9f9f9] bg-backgroundContrast flex flex-row w-[41px] h-[41px] justify-center items-center justify-self-center rounded-[8px] text-mxl px-1 lg:mx-1 mx-2">
+                <i className="bx bxl-apple"></i>
+                <span>tv</span>
+              </span>{" "}
+              app.
             </p>
           </motion.div>
         </Container>

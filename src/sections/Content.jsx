@@ -58,11 +58,11 @@ const Content = () => {
             </div>
           </FadeIn>
           <FadeIn>
-            <div className="mt-[38px] flex flex-wrap md:grid md:grid-cols-5 gap-[20px] lg:gap-[50px] mx-auto md:max-w-[692px] lg:max-w-[100%] max-w-[340px] mb-[29]">
+            <div className="mt-[38px] flex flex-wrap md:grid md:grid-cols-5 gap-[20px] lg:gap-[50px] mx-auto md:max-w-[692px] lg:max-w-[100%] max-w-[340px] mb-[24px] justify-center">
               {partnerIcons.map((partnerIcon) => (
                 <div
                   key={partnerIcon.id}
-                  className="h-[51px] md:h-[63px] lg:h-[81px] flex"
+                  className="h-[51px] md:h-[63px] lg:h-[81px] flex min-w-[86px]"
                 >
                   <img
                     className="object-contain w-full h-full"

@@ -20,7 +20,7 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div className="fontRoboto">
       <Header />
       <main>
         <div className="relative z-10 bg-background">
@@ -31,7 +31,7 @@ function App() {
         <Content />
         <Info />
       </main>
-    </>
+    </div>
   );
 }
 
