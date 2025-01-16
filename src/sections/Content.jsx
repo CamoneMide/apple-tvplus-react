@@ -58,7 +58,7 @@ const Content = () => {
             </div>
           </FadeIn>
           <FadeIn>
-            <div className="mt-[38px] flex flex-wrap md:grid md:grid-cols-5 gap-[20px] lg:gap-[50px] mx-auto md:max-w-[692px] lg:max-w-[100%] max-w-[340px] mb-[24px] justify-center">
+            <div className="mt-[38px] flex flex-wrap md:grid md:grid-cols-5 gap-[20px] lg:gap-[50px] mx-auto md:max-w-[692px] lg:max-w-[100%] max-w-[360px] mb-[20px] justify-center flex-shrink-0">
               {partnerIcons.map((partnerIcon) => (
                 <div
                   key={partnerIcon.id}

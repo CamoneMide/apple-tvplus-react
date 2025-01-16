@@ -1,6 +1,6 @@
 import React from "react";
 import Lenis from "lenis";
-import { Container, Header } from "./components";
+import { Header } from "./components";
 import { Content, Hero, Info, Usps, VideoCarousel } from "./sections";
 
 function App() {
